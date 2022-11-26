@@ -335,6 +335,7 @@ object-position: center;
 
 .explore__options_near_me  h4{
     display: flex;
+   
     border:solid 1.5px rgb(54,54,54);
     border-radius: 5px;
     width: 900px;
@@ -451,12 +452,12 @@ display: flex;
 .navbar{
     padding: 16px;
 }
-.hero__section_input_container{
+.hero__section_input_container,.explore__options_near_me  h4 {
     flex-direction: column;
     background-color: transparent;
     width: 100%;
 }
-.input__container_location,.input__container_search{
+.input__container_location,.input__container_search,.explore__options_near_me  h4{
     padding: 15px;
     flex-direction: column;
     border-radius: 10px;
@@ -465,7 +466,7 @@ display: flex;
 .location__icon, .Search__icon{
     display: none;
 }
-.hero__section_input_container{
+.hero__section_input_container {
  height: calc(80vh-60px);   
 }
 .hero__section_title{
